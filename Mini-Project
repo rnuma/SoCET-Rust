@@ -1,3 +1,5 @@
+*.rust linguist-detectable=true
+
 fn ssort(mut* arr, size: i32){
    
 let ind:i8;
