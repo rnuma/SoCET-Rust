@@ -1,0 +1,32 @@
+fn ssort(mut* arr, size: i32){
+   
+let ind:i8;
+let ind2:i8;
+let minInd:i8;
+let tempInd:i8;
+
+for ind in 0..size {
+  
+  let minInd = ind;
+
+  for ind2 in (ind+1)..ind2 {
+
+  if (arr[ind2] < arr[minInd]) {
+
+    let minInd = ind2;
+    }
+  }
+
+  if(ind != mind) {
+
+  let tempInd = arr[ind];
+  let arr[ind] = arr[minInd];
+  let arr[minInd] = tempInd;
+
+  }
+
+}
+
+return;
+  
+}
